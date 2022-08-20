@@ -7,6 +7,7 @@ import streamlit as st
 from streamlit_folium import folium_static
 import numpy as np
 from PIL import Image
+import openpyxl
 
 
 ## GeoData
