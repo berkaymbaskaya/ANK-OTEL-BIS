@@ -10,7 +10,7 @@ from PIL import Image
 
 
 ## GeoData
-ilceler=gpd.read_file("C:/Users/rebaa/Desktop/cbs/ank/ilceler.geojson")
+ilceler=gpd.read_file("https://raw.githubusercontent.com/berkaymbaskaya/APLIKASYON/main/ilceler.geojson")
 ilceler.to_crs(epsg=4326,inplace=True)
 #geodata ile data uyumluluğu için sütun ismi değiştirildi ve ilçeler büyük harfle yazdırıldı
 ilceler.rename(columns = {'name':'İLÇE'}, inplace = True)
