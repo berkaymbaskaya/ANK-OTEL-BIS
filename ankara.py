@@ -137,5 +137,5 @@ else:
 #st.sidebar.image(image)
 
 folium_static(map)
-ilceler
+Df
 st.info("Bu projede kullanılan veriler Şeffaf Ankara platformundan temin edilmiştir.")
