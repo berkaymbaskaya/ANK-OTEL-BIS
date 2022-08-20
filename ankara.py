@@ -18,7 +18,7 @@ ilceler['İLÇE'] = ilceler['İLÇE'].str.upper()
 
 
 ## Data
-data=pd.read_excel("https://raw.githubusercontent.com/berkaymbaskaya/APLIKASYON/main/OTEL.xlsx")
+data=pd.read_excel("https://raw.githubusercontent.com/berkaymbaskaya/APLIKASYON/main/OTEL.csv")
 data["geometry"]=data[["BOYLAM","ENLEM"]].apply(shp.Point,axis=1)
 data=gpd.GeoDataFrame(data)
 data=data.set_crs(epsg=4326,inplace=True)
