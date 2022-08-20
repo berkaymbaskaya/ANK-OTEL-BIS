@@ -132,8 +132,8 @@ if yıldız_sayısı=="Tümü":
 else:
  st.info("Şuanda "+ str(seçim) + " İlçesindeki " + str(yıldız_sayısı) + " yıldızlı otelleri görmektesiniz.")
 
-image = Image.open("C:/Users/rebaa/Desktop/cbs/ank/veriler/seffaf.png")
-st.sidebar.image(image)
+#image = Image.open("C:/Users/rebaa/Desktop/cbs/ank/veriler/seffaf.png")
+#st.sidebar.image(image)
 
 folium_static(map)
 ilceler
