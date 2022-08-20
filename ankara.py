@@ -135,6 +135,7 @@ else:
 
 #image = Image.open("C:/Users/rebaa/Desktop/cbs/ank/veriler/seffaf.png")
 #st.sidebar.image(image)
+add.LayerControl()
 
 folium_static(map)
 Df
