@@ -51,13 +51,14 @@ st.sidebar.header("FİLTRELER:")
 
 
 
-ilce_list=["ÇANKAYA","YENIMAHALLE","ALTINDAĞ","GÖLBAŞI","AKYURT","AYAŞ","KIZILCAHAMAM","HAYMANA","ETIMESGUT","POLATLI","ALTINDAĞ","ULUS","ŞEREFLIKOÇHISAR"]
+ilce_list=["ÇANKAYA","YENIMAHALLE","ALTINDAĞ","GÖLBAŞI","AKYURT","AYAŞ","KIZILCAHAMAM","HAYMANA","ETIMESGUT","POLATLI","ALTINDAĞ","ULUS","ŞEREFLIKOÇHISAR","TÜMÜ"]
 
 seçim=st.sidebar.selectbox(label = "İlçe Seçiniz", options = (ilce_list))
 yıldız_sayısı=st.sidebar.selectbox(label="Yıldız Sayısını Seçiniz" , options=("Tümü",3,4,5,))
 
-
-if yıldız_sayısı=="Tümü":
+if seçim=="TÜMÜ":
+Df=data
+elif yıldız_sayısı=="Tümü":
     Df=data[data["İLÇE"]==seçim]
 else:
  Df=data[data["İLÇE"]==seçim]
