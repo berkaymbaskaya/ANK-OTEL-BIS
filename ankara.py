@@ -137,8 +137,7 @@ else:
 #st.sidebar.image(image)
 folium.LayerControl().add_to(map)
 
-image = st.image("https://r.resimlink.com/0SYCasqXJ-ki.png")
-st.sidebar.image(image)
+st.sidebar.image("https://r.resimlink.com/0SYCasqXJ-ki.png")
 
 folium_static(map)
 Df
