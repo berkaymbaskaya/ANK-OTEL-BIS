@@ -44,14 +44,14 @@ highlight_function = lambda x: {'fillColor': '#000000',
      
 
 ## Streamlit
-st.set_page_config(page_title="ANKARA_OTELLER",page_icon=":smile:")
-st.header("Ankara Oteller Projesi")
+st.set_page_config(page_title="ANK-OTEL BİS")
+st.header("Ankara Otel Bilgi Sistemi")
 st.markdown("Çalışmada Ankara'nın ilçelerindeki Oteller interaktif harita  biçiminde gösterilmiştir. Harita gösterimi, yıldız sayısı ve İlçe adına göre filtrelenenebilmektedir. Sol taraftaki filtre barı ile sorgulama işlemlerinizi yapabilirsiniz.. ")
 st.sidebar.header("FİLTRELER:")
 
 
 
-ilce_list=["ÇANKAYA","YENIMAHALLE","ALTINDAĞ","GÖLBAŞI","AKYURT","AYAŞ","KIZILCAHAMAM","HAYMANA","ETIMESGUT","POLATLI","ALTINDAĞ","ULUS","ŞEREFLIKOÇHISAR","TÜMÜ"]
+ilce_list=["ÇANKAYA","YENIMAHALLE","ALTINDAĞ","GÖLBAŞI","AKYURT","AYAŞ","KIZILCAHAMAM","HAYMANA","ETIMESGUT","POLATLI","ALTINDAĞ","ULUS","ŞEREFLIKOÇHISAR"]
 
 seçim=st.sidebar.selectbox(label = "İlçe Seçiniz", options = (ilce_list))
 yıldız_sayısı=st.sidebar.selectbox(label="Yıldız Sayısını Seçiniz" , options=("Tümü",3,4,5,))
