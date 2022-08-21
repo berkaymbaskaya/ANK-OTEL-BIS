@@ -56,7 +56,7 @@ ilce_list=["ÇANKAYA","YENIMAHALLE","ALTINDAĞ","GÖLBAŞI","AKYURT","AYAŞ","KI
 seçim=st.sidebar.selectbox(label = "İlçe Seçiniz", options = (ilce_list))
 yıldız_sayısı=st.sidebar.selectbox(label="Yıldız Sayısını Seçiniz" , options=("Tümü",3,4,5,))
 
-elif yıldız_sayısı=="Tümü":
+if yıldız_sayısı=="Tümü":
     Df=data[data["İLÇE"]==seçim]
 else:
  Df=data[data["İLÇE"]==seçim]
