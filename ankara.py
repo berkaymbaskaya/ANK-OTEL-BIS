@@ -98,15 +98,8 @@ else:
  ##SEÇİLEN İLÇEYE VURGU
  NIL = folium.features.GeoJson(
     ilceler[ilceler["İLÇE"]==seçim], 
-    style_function=style_function, 
-    #control=False,
-    #highlight_function=highlight_function, 
-    #tooltip=folium.features.GeoJsonTooltip(
-        #fields=['İLÇE'],
-        #aliases=['İlçe:'],
-        #style=('background-color: grey; color: white;')      
+    style_function=style_function
     )
-#)
 NIL.add_to(map)
  ##TÜMÜNE  VURGU
 
