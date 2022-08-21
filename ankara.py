@@ -137,7 +137,7 @@ else:
 #st.sidebar.image(image)
 folium.LayerControl().add_to(map)
 
-image = <a href="https://resimlink.com/0SYCasqXJ-ki" title="ResimLink - Resim Yükle"><img src="https://r.resimlink.com/0SYCasqXJ-ki.png" title="ResimLink - Resim Yükle" alt="ResimLink - Resim Yükle"></a>
+image = Image.open("https://r.resimlink.com/0SYCasqXJ-ki.png")
 st.sidebar.image(image)
 
 folium_static(map)
