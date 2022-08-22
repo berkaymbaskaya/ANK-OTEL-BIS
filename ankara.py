@@ -129,8 +129,6 @@ else:
 #st.sidebar.image(image)
 folium.LayerControl().add_to(map)
 
-st.sidebar.image("https://r.resimlink.com/0SYCasqXJ-ki.png")
-st.markdown("blalba")
 
 folium_static(map)
 Df
