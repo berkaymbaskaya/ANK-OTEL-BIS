@@ -130,6 +130,7 @@ else:
 folium.LayerControl().add_to(map)
 
 st.sidebar.image("https://r.resimlink.com/0SYCasqXJ-ki.png")
+st.sidebar.caption("blalba")
 
 folium_static(map)
 Df
