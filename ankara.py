@@ -130,4 +130,4 @@ folium.LayerControl().add_to(map)
 
 folium_static(map)
 Df
-st.info("Bu projede kullanılan veriler Şeffaf Ankara platformundan temin edilmiştir.")
+st.info("NOT: Bu projede kullanılan veriler Şeffaf Ankara platformundan temin edilmiştir. ")
