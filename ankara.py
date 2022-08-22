@@ -118,15 +118,14 @@ for i in range(len(Df)):
               icon=folium.Icon(icon="bed",prefix="fa",color="red")).add_to(map)
 ##konum ekleme
 konum=plugins.LocateControl(setView=True,enableHighAccuracy=True,auto_start=False).add_to(map)  
-##label1
 
 if yıldız_sayısı=="Tümü":
     st.info("Şuanda "+ str(seçim) + " İlçesindeki " + " tüm otelleri görmektesiniz.")
 else:
  st.info("Şuanda "+ str(seçim) + " İlçesindeki " + str(yıldız_sayısı) + " yıldızlı otelleri görmektesiniz.")
 
-#image = Image.open("C:/Users/rebaa/Desktop/cbs/ank/veriler/seffaf.png")
-#st.sidebar.image(image)
+image = Image.open("https://r.resimlink.com/yhfUWS_kabC.png")
+st.sidebar.image(image)
 folium.LayerControl().add_to(map)
 
 
