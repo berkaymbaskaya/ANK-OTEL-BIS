@@ -115,7 +115,7 @@ for i in range(len(Df)):
  folium.Marker([Df["ENLEM"].iloc[i],Df["BOYLAM"].iloc[i]],
                popup=adres,
                tooltip=adı,
-              icon=folium.Icon(icon="building",prefix="fa",color="red")).add_to(map)
+              icon=folium.Icon(icon="bed",prefix="fa",color="red")).add_to(map)
 ##konum ekleme
 konum=plugins.LocateControl(setView=True,enableHighAccuracy=True,auto_start=False).add_to(map)  
 ##label1
