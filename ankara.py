@@ -124,7 +124,6 @@ if yıldız_sayısı=="Tümü":
 else:
  st.info("Şuanda "+ str(seçim) + " İlçesindeki " + str(yıldız_sayısı) + " yıldızlı otelleri görmektesiniz.")
 
-#image = Image("https://r.resimlink.com/yhfUWS_kabC.png")
 st.sidebar.image("https://r.resimlink.com/yhfUWS_kabC.png")
 folium.LayerControl().add_to(map)
 
